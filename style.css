@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.514);
+    color: white;
+    font: normal 15px Arial;
+}
+
+header {
+    text-align: center;
+    margin-top: 25px;
+}
+
+header h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+}
+
+section {
+
+    text-align: center;
+    border-radius: 10px;
+    width: 800px;
+    margin: auto;
+    padding: 25px;
+}
+
+div {
+    margin-top: 20px;
+}
+
+p {
+
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(54, 53, 53, 0.548);
+    color: white;
+    transition: 0.1s;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+p:hover {
+    background-color: rgba(54, 53, 53, 0.747);
+    color: white;
+    transform: scale(1.02);
+}
+
+p:visited {
+    background-color: red;
+}
+
+#cad {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(54, 53, 53, 0.548);
+    width: 500px;
+    margin: auto;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+#txtlista {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow-y: inherit;
+}
+
+select {
+    text-align: center;
+}
+
+option {
+    margin-top: 5px;
+}
+
+#res h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+button {
+    padding: 2px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
